@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Pizza Maker</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>The Pizza Maker</h1>
+    </header>
+    <main>
+        <form id="pizzaForm" action="#">
+            <label for="size">Size:</label>
+            <select id="size" name="size">
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+            </select><br>
+
+            <label for="crust">Crust:</label>
+            <select id="crust" name="crust">
+                <option value="thin">Thin</option>
+                <option value="thick">Thick</option>
+                <option value="stuffed">Stuffed</option>
+            </select><br>
+
+            <label for="toppings">Toppings:</label><br>
+            <input type="checkbox" id="pepperoni" name="topping" value="pepperoni">
+            <label for="pepperoni">Pepperoni</label><br>
+            <input type="checkbox" id="mushrooms" name="topping" value="mushrooms">
+            <label for="mushrooms">Mushrooms</label><br>
+            <input type="checkbox" id="sausage" name="topping" value="sausage">
+            <label for="sausage">Sausage</label><br>
+
+            <input type="submit" value="Order">
+        </form>
+
+        <p id="studentInfo"></p>
+    </main>
+</body>
+
+</html>
